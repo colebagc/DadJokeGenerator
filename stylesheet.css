@@ -1,0 +1,105 @@
+body {
+    background-color: #182335;
+}
+
+.searchContainer {
+    right: 5%;
+    top: 3%;
+    position: absolute;
+    background-color: #FF5349;
+    width: 18%;
+    height: 5%;
+}
+
+.btnSearch, .searchBar {
+    float: left;
+    top: 25%;
+}
+
+#btnSearch {
+    position: relative;
+    top: 7px;
+    height: 35px;
+    width: 35px;
+    padding-left: 70px;
+
+}
+
+.searchBar {
+    position: relative;
+    width: 50%;
+    left: 5%;
+}
+
+input {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.mainContainer {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 5%;
+    color: #FF5349;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.joke, .jokeID {
+    margin: auto;
+    width: 50%;
+    color: #A9A9A9;
+    font-size: 20px;
+}
+
+.txt, .txtID {
+    text-align: center;
+}
+
+.txtID {
+    font-size: 15px;
+}
+
+.btnNext {
+    text-align: center;
+    padding-top: 5%;
+}
+
+#btnNext {
+    padding: 50;
+    background: #A9A9A9;
+    color: #FF5349;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#btnNext:hover {
+    color: black;
+    font-size: 25px;
+}
+
+.footerContainer {
+    color: #FF5349;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+}
+
+.devnote {
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+}
